@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    background-color: #F5F7FB; /* Fundo cinza bem claro */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Sidebar (Menu Lateral) */
+.sidebar {
+    background: linear-gradient(180deg, #6C5DD3 0%, #4D49BD 100%); /* Azul/Roxo estilo Clinik */
+    min-height: 100vh;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: rgba(255,255,255,0.7);
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    border-right: 4px solid #fff;
+}
+
+/* Cards do Dashboard */
+.card-custom {
+    background: #fff;
+    border-radius: 20px; /* Bordas bem arredondadas */
+    border: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: transform 0.2s;
+}
+
+.card-custom:hover {
+    transform: translateY(-2px);
+}
+
+/* Foto do Perfil */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #F5F7FB;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Tabelas */
+.table-custom th {
+    font-weight: 600;
+    color: #888;
+    border: none;
+}
+.table-custom td {
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 10px;
+}
+.badge-revista {
+    background-color: #E6E9F5;
+    color: #6C5DD3;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Titulos */
+h2, h3, h4, h5 {
+    color: #1a1a1a;
+    font-weight: 600;
+}

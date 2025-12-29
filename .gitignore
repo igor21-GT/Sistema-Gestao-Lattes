@@ -1,0 +1,4 @@
+data/xml/*.xml
+!data/xml/exemplo_lattes.xml
+.DS_Store
+Thumbs.db
