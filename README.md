@@ -39,5 +39,4 @@ O sistema não utiliza banco de dados SQL. Ele funciona como um **Leitor de Arqu
 4. Acesse `http://localhost/seu-projeto` no navegador.
 
 ---
-Desenvolvido por Igor Johnson
-Meu LinkedIn (https://www.linkedin.com/in/igor-pacheco-5a315b310/)
+Desenvolvido por Igor Johnson - (https://www.linkedin.com/in/igor-pacheco-5a315b310/)
