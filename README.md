@@ -36,7 +36,7 @@ O sistema não utiliza banco de dados SQL. Ele funciona como um **Leitor de Arqu
 1. Clone este repositório.
 2. Configure um servidor local (XAMPP, WAMP ou Docker).
 3. Coloque os arquivos XML dos docentes na pasta `data/xml/`.
-4. Acesse `http://localhost/seu-projeto` no navegador.
+4. Acesse `http://localhost/Sistema_Docentes` no navegador.
 
 ---
 Desenvolvido por Igor Johnson - (https://www.linkedin.com/in/igor-pacheco-5a315b310/)
